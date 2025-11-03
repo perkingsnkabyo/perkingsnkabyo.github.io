@@ -12,7 +12,7 @@ body {
 
 
 nav {
-    background: rgb(239, 80, 41);
+    background: rgb(207, 92, 30);
     margin: 0 auto;
     display: flex;
     padding: 10px;
@@ -21,7 +21,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: white;
+    color: rgb(88, 22, 22);
     flex: 1;
     margin: 0;
 }
@@ -40,12 +40,12 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #f7f7f7;
 }
 
 
 main {
-    background: rgb(245, 238, 219);
+    background: rgb(200, 88, 88);
     display: flex;
     margin-top: 20px;
 }
@@ -66,7 +66,7 @@ main {
 
 
 #interests {
-    border: 4px rgba(51, 87, 44, 0.877) ridge;
+    border: 4px rgba(255, 255, 255, 0.877) ridge;
     padding: 8px;
     margin-top: 20px;
 }
@@ -88,14 +88,14 @@ nav {
   margin-bottom: 20px;
 }
 body {
-  background: #3ffd0f83;
-  color: #1b0211;
+  background: #41a72583;
+  color: #d3ff0e;
 }
 
 nav {
-  background: #333;
+  background: #0d7718;
 }
 
 a {
-  color: #ffa500;
+  color: #edfa01;
 }
