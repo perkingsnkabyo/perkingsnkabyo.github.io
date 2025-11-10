@@ -27,10 +27,26 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
+     toggleGrid();
 
 
     // TODO 2 - Create Platforms
+createPlatform(500, 300, 20, 290);
+createPlatform(1350, 400, 50, 50, "red");
+
+createPlatform(100, 650, 100, 50);
+createPlatform(1350, 400, 50, 50, "hotpink");
+
+
+createPlatform(200, 550, 100, 50);
+createPlatform(1350, 400, 50, 50, "hotpink");
+
+
+createPlatform(300, 650, 100, 50);
+createPlatform(1350, 400, 50, 50, "hotpink");
+
+
+
 
 
 

@@ -1,13 +1,14 @@
 body {
     background: rgb(125, 198, 205);
     color: rgb(45, 45, 45);
-    padding: 10px;
-    font-family: Arial, sans-serif;
+    padding: 70px;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 #all-contents {
-    max-width: 800px;
+    max-width: 1200px;
     margin: auto;
+    
 }
 
 
@@ -16,6 +17,8 @@ nav {
     margin: 0 auto;
     display: flex;
     padding: 10px;
+    border: 4px 
+    rgba(0, 0, 0, 0.877) ridge;
 }
 
 h1 {
@@ -24,6 +27,7 @@ h1 {
     color: rgb(88, 22, 22);
     flex: 1;
     margin: 0;
+    
 }
 
 #nav-ul {
@@ -47,7 +51,8 @@ a {
 main {
     background: rgb(200, 88, 88);
     display: flex;
-    margin-top: 20px;
+    margin-top: 30px;
+    border: 4px rgba(0, 0, 0, 0.877) ridge;
 }
 
 .sidebar {
@@ -56,19 +61,21 @@ main {
 }
 
 .sidebar-img {
-    width: 200px;
+    width: 350px;
+    border: 4px rgba(0, 0, 0, 0.877) ridge;
 }
 
 .content {
     flex: 1;
     padding: 15px;
+    border: 4px rgba(0, 0, 0, 0.877) ridge;
 }
 
 
 #interests {
-    border: 4px rgba(255, 255, 255, 0.877) ridge;
+    border: 4px rgba(0, 0, 0, 0.952) ridge;
     padding: 8px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 h2, h3 {
@@ -79,17 +86,19 @@ nav {
   margin: 0 auto;
   display: flex;
   padding: 10px;
+  margin-bottom: 20px;
 }
 nav {
   background: rgb(75, 17, 170);
   margin: 0 auto;
   display: flex;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 body {
   background: #41a72583;
   color: #d3ff0e;
+  
 }
 
 nav {
@@ -98,4 +107,77 @@ nav {
 
 a {
   color: #edfa01;
+  border: 4px rgba(0, 0, 0, 0.877) ridge;
+}
+.content h1 {
+  color: black;
+}
+
+#portfolio {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#portfolio li {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+  background: #a86262;
+}
+
+#portfolio a {
+  text-decoration: none;
+  color: #f33918;
+}
+@media screen and (min-width: 120px) and (max-width: 1080px) {
+  main {
+    height: 100ch;
+    zoom: 1.5;
+    display: grid;
+  }
+
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+
+  h3 {
+    font-size: 36px;
+  }
+
+  #all-contents {
+    height: 100ch;
+    margin: none;
+  }
+
+  a {
+    font-size: 42px;
+  }
+
+  .sidebar {
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sidebar-img {
+    width: 100%;
+  }
+
+  p,
+  li {
+    font-size: 20px;
+  }
+
+  .content {
+    align-content: center;
+    justify-content: center;
+  }
 }
