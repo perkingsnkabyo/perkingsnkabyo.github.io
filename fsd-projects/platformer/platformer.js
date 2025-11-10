@@ -22,6 +22,8 @@ $(function () {
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
 
+
+
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
@@ -31,19 +33,25 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-createPlatform(500, 300, 20, 290);
-createPlatform(1350, 400, 50, 50, "red");
 
-createPlatform(100, 650, 100, 50);
-createPlatform(1350, 400, 50, 50, "hotpink");
+    // -- Perkings, I changed some of your code.
+    // --    You had several calls to createPlatform where NO COLOR was specified.
+    // --    Also, you had several calls to the SAME location with "red" & then "hotpink"
 
+    createPlatform(500, 300, 20, 290, "red");
+    
+    createPlatform(100, 650, 100, 50, "hotpink");
 
-createPlatform(200, 550, 100, 50);
-createPlatform(1350, 400, 50, 50, "hotpink");
+    createPlatform(200, 550, 100, 50, "hotpink");
 
+    createPlatform(300, 650, 100, 50, "hotpink");
 
-createPlatform(300, 650, 100, 50);
-createPlatform(1350, 400, 50, 50, "hotpink");
+    createPlatform(1350, 400, 50, 50, "red");
+
+    // createPlatform(1350, 400, 50, 50, "hotpink");
+    // createPlatform(1350, 400, 50, 50, "hotpink");
+    // createPlatform(1350, 400, 50, 50, "hotpink");
+
 
 
 
