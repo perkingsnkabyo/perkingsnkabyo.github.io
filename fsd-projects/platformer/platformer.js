@@ -18,9 +18,10 @@ $(function () {
 
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
+    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "red"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
+     
 
 
 
@@ -29,7 +30,7 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     toggleGrid();
+     //toggleGrid();
 
 
     // TODO 2 - Create Platforms
@@ -38,19 +39,40 @@ $(function () {
     // --    You had several calls to createPlatform where NO COLOR was specified.
     // --    Also, you had several calls to the SAME location with "red" & then "hotpink"
 
-    createPlatform(500, 300, 20, 290, "red");
+    createPlatform(500, 0, 20, 290, "white");
     
-    createPlatform(100, 650, 100, 50, "hotpink");
+    createPlatform(100, 650, 100, 50, "white");
 
-    createPlatform(200, 550, 100, 50, "hotpink");
+    createPlatform(200, 550, 100, 50, "black");
 
-    createPlatform(300, 650, 100, 50, "hotpink");
+    createPlatform(300, 650, 100, 50, "darkgreen");
 
-    createPlatform(1350, 400, 50, 50, "red");
+    createPlatform(110, 450, 50, 50, "white");
 
-    // createPlatform(1350, 400, 50, 50, "hotpink");
-    // createPlatform(1350, 400, 50, 50, "hotpink");
-    // createPlatform(1350, 400, 50, 50, "hotpink");
+     createPlatform(500, 550, 50, 50, "white");
+
+     createPlatform(700, 420, 50, 50, "white");
+
+     createPlatform(900, 560, 50, 50, "black");
+
+     createPlatform(1100, 650, 100, 50, "yellow");
+
+    createCollectable("steve", 500, 500);
+    createCollectable("diamond", 200, 170, 0.5, 0.7);
+    createCollectable("grace", 900, 500);
+    createCollectable("max", 1150, 600);
+
+    createCannon("top", 500, 800);
+    createCannon("right", 780, 300);
+    createCannon("top", 870, 700);
+    createCannon("right", 200, 300);
+
+
+     
+
+
+
+
 
 
 
