@@ -69,6 +69,8 @@
         //////////////////////////////////////////////////////////////////
 
         // TODO 2 - Variable declarations
+        var positionX = 0;
+
 
 
 
@@ -80,7 +82,9 @@
          * If the box drifts off the screen, turn it around!
          */
         function update() {
-        moveBoxTo(200); // Moves box to x-position 200
+        positionX = positionX + 10
+        moveBoxTo(positionX); // Moves box to right
+
 
         
 
@@ -95,6 +99,9 @@
          * - move the box to the left side of the screen.
          */
         function handleBoxClick() {
+        positionX = 0
+        changeBoxText(0)
+        
 
 
 
