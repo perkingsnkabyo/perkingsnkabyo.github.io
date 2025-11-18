@@ -449,6 +449,15 @@ Make sure your game unique and challenging! In order to get full credit your pro
 <!-- 4 line breaks between TODOs -->
 <br><br><br><br>
 
+## Explore Bonus Challenges
+
+We've compiled a list of optional **bonus challenges** for you to take this project to the next level. These challenges add new features and complexity to your platformer game, including moving platforms, harmful platforms, new projectile sizes, moving cannons, and more dynamic collectables.
+
+- Access them on [GitHub here](https://github.com/OperationSpark/platformer-neo/blob/master/BONUS_CHALLENGES.md)
+
+<!-- 4 line breaks between TODOs -->
+<br><br><br><br>
+
 ## **TODO 6:** *Go Live*
 
 🎯 **Goal:** Push your changes to GitHub and make your platformer game go live.
@@ -494,15 +503,3 @@ Make sure your game unique and challenging! In order to get full credit your pro
 <br>
 
 ### 🎉🎉🎉 Congratulations! You can now challenge your classmates and friends to beat your customized game! 🎉🎉🎉
-
-### **Bonus Challenges**
-
-1. **Moving Collectable Challenge**:
-   - Create a collectable that moves horizontally between two points (100 and 300 pixels)
-   - Example: `createCollectable("gem", 200, 100, 0, 1, 100, 300, 2)`
-   - The collectable should smoothly move back and forth at a reasonable speed
-
-2. **Moving Platform Challenge**:
-   - Design a platform that moves horizontally between two positions
-   - Example: `createPlatform(400, 300, 200, 20, "blue", 300, 500, 1)`
-   - Make sure the platform is wide enough for HalleBot to land on while moving

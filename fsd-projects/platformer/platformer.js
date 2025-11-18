@@ -18,28 +18,18 @@ $(function () {
 
     // Create walls - do not delete or modify this code
     createPlatform(-50, -50, canvas.width + 100, 50); // top wall
-    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "red"); // bottom wall
+    createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-     
-
-
 
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-     //toggleGrid();
+    // toggleGrid();
 
-
-    // TODO 2 - Create Platforms
-
-    // -- Perkings, I changed some of your code.
-    // --    You had several calls to createPlatform where NO COLOR was specified.
-    // --    Also, you had several calls to the SAME location with "red" & then "hotpink"
-
-    createPlatform(500, 0, 20, 290, "white");
+  createPlatform(500, 0, 20, 290, "white");
     
     createPlatform(100, 650, 100, 50, "white");
 
@@ -57,17 +47,8 @@ $(function () {
 
      createPlatform(1100, 650, 100, 50, "yellow");
 
-    createCollectable("steve", 500, 500);
-    createCollectable("diamond", 200, 170, 0.5, 0.7);
-    createCollectable("grace", 900, 500);
-    createCollectable("max", 1150, 600);
-
-    createCannon("top", 500, 800);
-    createCannon("right", 780, 300);
-    createCannon("top", 870, 700);
-    createCannon("right", 200, 300);
-
-
+   
+    
      
 
 
@@ -82,12 +63,20 @@ $(function () {
 
 
     // TODO 3 - Create Collectables
+    createCollectable("steve", 500, 500);
+    createCollectable("diamond", 200, 170, 0.5, 0.7);
+    createCollectable("grace", 900, 500);
+    createCollectable("max", 1150, 600);
+
 
 
 
     
     // TODO 4 - Create Cannons
-
+    createCannon("top", 500, 800);
+    createCannon("right", 780, 300);
+    createCannon("top", 870, 700);
+    createCannon("right", 200, 300);
 
     
     
